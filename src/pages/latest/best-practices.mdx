@@ -22,7 +22,7 @@ should be rewritten into a smaller number of larger files on a regular basis.
 This is known as compaction.
 
 You can compact a table by repartitioning it to smaller number of files. In
-addition, you can specify the option `dataChange` to be `false` indicates that
+addition, you can specify the option `dataChange` to be `false` to indicate that
 the operation does not change the data, only rearranges the data layout. This
 would ensure that other concurrent operations are minimally affected due to this
 compaction operation.
